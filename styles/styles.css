@@ -1,0 +1,92 @@
+html {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white
+}
+
+
+@font-face {
+    font-family: googlefont;
+    src: url(../fonts/Italiana/Italiana-Regular.ttf);
+}
+
+/* logo */
+
+header {
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+
+
+/* balke */
+
+
+.balken { 
+    display: flex;
+    justify-content: center;
+    background: rgb(29, 69, 29);
+    border: 2px solid rgb(29, 69, 29);
+    width: auto;
+    height: 3em;
+    color: white;
+    
+}
+
+
+/* fruit */
+
+.fruit {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-right: 0em;
+    
+}
+
+/* melk */
+
+.melk {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+
+}
+
+
+
+/* pizza */
+
+
+.pizza {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+
+}
+
+
+
+
+/* footer */
+
+footer { 
+    display: block;
+    background: rgb(29, 69, 29);
+    border: 2px solid rgb(29, 69, 29);
+    width: auto;
+    height: 3em;
+}
+
+.budget {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
