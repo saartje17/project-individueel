@@ -1,11 +1,9 @@
-html {
+
+body {
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
-}
-
-body {
-    background-color: white
+    background-color: white;
 }
 
 
@@ -23,69 +21,52 @@ header {
     right: 0;
 }
 
+/* choosen budget */
 
-/* balke */
-
-
-.balken { 
+h4 { 
     display: flex;
     justify-content: center;
     background: rgb(29, 69, 29);
-    border: 2px solid rgb(29, 69, 29);
-    width: auto;
-    height: 3em;
+    border: 0px solid rgb(29, 69, 29);
+    width: 100vmax;
+    padding: 1em;
+    padding-left: 3em;
     color: white;
     
 }
 
+/* main info */
 
-/* fruit */
-
-.fruit {
+main {
     display: flex;
     justify-content: center;
-    width: 75%;
-    margin-right: 0em;
+    margin-bottom: 5%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section img {
+    width: 50%;
     
 }
-
-/* melk */
-
-.melk {
-    display: flex;
-    justify-content: center;
-    width: 75%;
-
-}
-
-
-
-/* pizza */
-
-
-.pizza {
-    display: flex;
-    justify-content: center;
-    width: 75%;
-
-}
-
-
-
 
 /* footer */
 
 footer { 
-    display: block;
+    display: flex;
+    justify-content: center;
     background: rgb(29, 69, 29);
     border: 2px solid rgb(29, 69, 29);
     width: auto;
-    height: 3em;
+    height: 2em;
+    padding: 1em;
 }
 
-.budget {
-    display: flex;
-    justify-content: center;
+footer p {
     color: white;
     padding: 10px;
     font-size: 15px;
